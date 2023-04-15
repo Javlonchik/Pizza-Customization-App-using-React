@@ -1,11 +1,11 @@
 # Pizza Customization App
 
-There is a size selector (radio group) on the page where you can select the size of the pizza.
-Below the size selector toppings can be selected using checkboxes. 
-Under the toppings selector, there is a summary box to show what you have selected.
-In addition, this box have a cost calculator that calculates the cost of the pizza in real time.
-The size options are assigned to different prices.
-The toppings have the same price values. 
+- There is a size selector (radio group) on the page where you can select the size of the pizza.
+- Below the size selector toppings can be selected using checkboxes. 
+- Under the toppings selector, there is a summary box to show what you have selected.
+- In addition, this box have a cost calculator that calculates the cost of the pizza in real time.
+- The size options are assigned to different prices.
+- The toppings have the same price values. 
 
 
 # Getting Started with Create React App
