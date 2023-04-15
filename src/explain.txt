@@ -1,0 +1,89 @@
+The code above is a React functional component that renders a pizza customizer. It uses the useState hook to store the selected size and toppings of the pizza. 
+The sizes and toppings data is then stored in two separate arrays: sizes and toppings. 
+
+Three functions are also declared in the component: 
+
+1. handleSizeSelection() - This function handles the selection of the pizza size and sets the selected size using the setSelectedSize() function from the useState hook. 
+
+2. handleToppingSelection() - This function handles the selection of the pizza toppings and sets the selected toppings using the setSelectedToppings() function from the useState hook. 
+
+3. calculateTotalCost() - This function calculates the total cost of the pizza by taking into account the selected size and toppings and returns the total cost. 
+
+Finally, the component renders a form with radio buttons for the sizes and checkboxes for the toppings, as well as a summary of the selected size and toppings and the total cost.
+
+====
+
+The React useState Hook allows us to track state in a function component.
+
+State generally refers to data or properties that need to be tracking in an application.
+
+useState accepts an initial state and returns two values:
+
+The current state.
+A function that updates the state.
+
+====
+1. What is the purpose of the useState hook in this code?
+
+Answer: The useState hook is used to store the selected size and toppings for the pizza customization.
+
+2. What is the purpose of the sizes and toppings data?
+
+Answer: The sizes and toppings data are used to provide the user with options for customizing their pizza. The data provides the name and price of each size and topping.
+
+3. What is the purpose of the handleSizeSelection and handleToppingSelection functions?
+
+Answer: The handleSizeSelection and handleToppingSelection functions are used to handle the selection of the size and toppings respectively. They set the selected size and toppings in the state using the useState hook.
+
+4. What is the purpose of the calculateTotalCost function?
+
+Answer: The calculateTotalCost function is used to calculate the total cost of the pizza by adding the price of the selected size and toppings.
+
+  
+In this code, a function component was used because no state was needed and the component is simple. Function components are easier to read and are more performant than class components, so they are the preferred method of creating components when no state is needed. Additionally, they are much less verbose, making them easier to read and maintain.
+
+=====================
+
+
+This code defines a React component named "PizzaCustomization". The component allows users to customize their pizza by selecting the size and toppings.
+
+The component uses two useState hooks, one to store the selected size and the other to store the selected toppings. The sizes and toppings data arrays store the available options.
+
+The component defines several functions to handle user interactions:
+
+handleSizeSelection is called when a size is selected and updates the selected size stored in state.
+handleToppingSelection is called when a topping is selected and updates the selected toppings stored in state.
+calculateTotalCost returns the total cost of the pizza based on the selected size and toppings.
+The component renders several sections to display the available options, the selected size and toppings, and the total cost. The options are displayed as radio buttons for sizes and checkboxes for toppings. The summary displays the selected size and toppings and the total cost.
+
+=========
+
+Yes, of course! This is a React component that allows the user to customize a pizza by selecting the size and toppings.
+
+The code uses the useState hook to store the selected size and toppings. The sizes and toppings data are arrays of objects that store the names and prices of the available options.
+
+There are two event handlers, handleSizeSelection and handleToppingSelection, that update the state whenever the user selects a size or a topping.
+
+The calculateTotalCost function adds up the cost of the selected size and toppings and returns the total.
+
+The component renders the size selector, toppings selector, and a summary of the selected options and total cost.
+
+===========
+
+Yes, of course. The code defines a React component called PizzaCustomization. It uses the useState hook to manage the local state of the component.
+
+There are two pieces of state data:
+
+selectedSize, which holds the value of the selected pizza size.
+selectedToppings, which holds an array of the selected toppings.
+The component also holds data for pizza sizes and toppings in two arrays sizes and toppings.
+
+The component defines two functions:
+
+handleSizeSelection that updates the value of selectedSize when a user selects a size.
+handleToppingSelection that adds or removes a topping from the selectedToppings array based on whether it's already selected or not.
+Finally, calculateTotalCost function calculates the total cost of the pizza by summing up the prices of the selected size and toppings.
+
+The component returns JSX that renders a form for the user to select a size and toppings, and shows a summary of their selections and total cost. The form uses radio buttons and checkboxes to allow the user to select a size and toppings, respectively. The form uses onChange event handlers to trigger the handleSizeSelection and handleToppingSelection functions, respectively.
+
+

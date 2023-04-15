@@ -1,0 +1,35 @@
+body {
+  margin: 50px 0 50px 150px;
+  background-image: url('images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  color: white;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.titles{
+  font-size: 22px;
+  text-transform: uppercase;
+  color: darkorange
+}
+
+.spacing{
+  margin-bottom: 15px;
+}
+
+.price{
+  color: darkorange;
+  font-weight: bold;
+  text-decoration: underline;
+}
